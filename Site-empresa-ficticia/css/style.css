@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 50px 0;
+    font-size: 40px;
+    /*background: url(https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i_IuhK4zisis/v1/1200x-1.jpg) no-repeat center;
+    background-size: cover;*/
+    box-shadow: 0px 0px 30px black;
+    background: url(https://w0.peakpx.com/wallpaper/241/159/HD-wallpaper-black-stars-black-aesthetic.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.weyland-yutani-logo{
+    width: 400px;
+}
+
+.container{
+    display: flex;
+}
+
+.navbar{
+    width: 20%;
+    padding: 15px 30px;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    text-align: center;
+    border-radius: 15px 5px;
+    padding: 15px 0;
+    background-color: black;
+    margin: 5px 0px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #d8d8d8;
+}
+
+.content{
+    width: 80%;
+    border-radius: 30px;
+    background-color: #d8d8d8;
+    padding: 15px 30px;
+}
+
+.container h1{
+    margin: 10px 10px;
+}
+
+.container p{
+    margin: 10px 10px;
+}
+
+.servico{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.quem-somos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.footer{
+    background-color: grey;
+    text-align: center;
+    padding: 20px 0;
+}
